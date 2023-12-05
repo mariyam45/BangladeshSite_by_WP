@@ -1,0 +1,174 @@
+/*
+Theme Name: Bangladesh Site
+Theme URI: https://wordpress.org/themes/twentytwentyfour/
+Author: the WordPress team
+Author URI: https://wordpress.org
+Description: Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.
+Requires at least: 6.4
+Tested up to: 6.4
+Requires PHP: 7.0
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwentyfour
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
+*/
+.cont {
+  width: 996px;
+  margin: 0 auto;
+}
+.cont1 {
+  width: 1020px;
+  margin: 0 auto;
+}
+body {
+  background: url(./bg_main.gif) center;
+}
+/* header  */
+.header_cont {
+  background: #9e5bba;
+  height: 30px;
+  border-bottom: 2px solid red;
+  line-height: 30px;
+  color: white;
+  font-size: 13px;
+}
+.header_right p {
+  display: inline-block;
+  border-right: 1px solid #dddd;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+.header_right a {
+  text-decoration: none;
+  color: white;
+}
+/* header end  */
+/* logo   */
+.logo_cont {
+  height: 110px;
+}
+.logo_left {
+  line-height: 110px;
+}
+.logo_search {
+  display: flex;
+  align-items: center;
+}
+.logo_right {
+  display: flex;
+  align-items: center;
+}
+.logo1 img {
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #dddd;
+}
+.logo2 {
+  line-height: 2px;
+}
+.logo2 h6 {
+  font-size: 13px;
+  font-weight: bold;
+  color: #9e5bba;
+}
+/* logo  end */
+
+/* menu  */
+.nav_text li {
+  padding: 4px 0 4px 0;
+}
+.nav_text li a {
+  color: black;
+  text-decoration: none !important;
+  border-right: 1px solid #ddd;
+  padding-right: 20px !important;
+  margin-right: 10px !important;
+}
+.nav_text li a:hover {
+  background: #8431a8;
+  color: white;
+}
+
+.thumb img {
+  height: 250px;
+  width: 100% !important;
+  display: block;
+}
+/* menu end */
+.tab .tab_btm p {
+  font-size: 13px !important;
+  color: #297101;
+}
+.tab_list ul li {
+  list-style: none;
+}
+
+.tab_top {
+  background: #9e5bba !important;
+  color: white !important;
+  margin-right: 2px !important;
+  border-radius: 4px 4px 0 0 !important;
+  font-size: 14px !important;
+}
+.tab_top:hover {
+  background: #eeeeee !important;
+  color: #9e5bba !important;
+}
+/* .tab_top:active {
+  background: #eeeeee !important;
+  color: #9e5bba !important;
+} */
+/* hero right  */
+.hero_right h5 {
+  background: #297101 !important;
+  color: white !important;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.fb .nav_text_f li a {
+  font-size: 12px !important;
+  color: black;
+  text-decoration: none !important;
+  border-right: 1px solid #ddd;
+  padding-right: 10px !important;
+  margin-right: 5px !important;
+}
+.fb_left p {
+  font-size: 10px;
+  margin-top: 20px;
+}
+.fb_right p {
+  font-size: 12px;
+}
+.main_list li {
+  list-style: none;
+}
+.main_list h5 {
+  color: #8431a8;
+  font-size: 19px;
+  font-weight: bold;
+}
+.main_list li a {
+  text-decoration: none;
+  border-bottom: 1px solid #297101;
+  color: black;
+}
+.video_cont h5 {
+  background: #297101 !important;
+  color: white !important;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+.lvr2-inner {
+  border: 0.4px solid rgb(221, 221, 221);
+}
+.lvr4 iframe {
+  width: 680px;
+  height: 350px;
+}
+.lvr3 iframe {
+  width: 680px;
+  height: 350px;
+}
